@@ -32,7 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Compile Markdown
-        uses: docker://pandoc/core:2.9
+        uses: docker://pandoc/core:3.1
         with:
           args: >-
             cdb.md -s -o index.html
