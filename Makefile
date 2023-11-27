@@ -1,6 +1,6 @@
 MKD = cdb.md
 BIB = cdb.bib
-OUT = cdb.html
+OUT = index.html
 
 $(OUT): $(MKD) $(BIB)
 	pandoc -s $(MKD) -o $(OUT) --citeproc --bibliography=$(BIB)
