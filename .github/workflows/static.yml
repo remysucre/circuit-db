@@ -35,8 +35,8 @@ jobs:
         uses: docker://pandoc/core:3.1
         with:
           args: >-
-            cdb.md -s -o index.html
-            --citeproc --bibliography=cdb.bib
+            README.md -s -o index.html
+            --csl=acm.csl --citeproc --bibliography=cdb.bib
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
