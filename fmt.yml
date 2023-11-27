@@ -1,4 +1,5 @@
 ---
+title: Circuits and Databases
 mainfont: sans-serif;
 nocite: |
   @*
@@ -11,4 +12,5 @@ header-includes: |
     padding: 0.2em;
   }
   </style>
----
+...
+
