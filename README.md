@@ -1,15 +1,3 @@
----
-fontsize: 110%
-nocite: |
-  @*
-header-includes: |
-  <style>
-  div.csl-entry {
-    margin: 0.5em;
-  }
-  </style>
----
-
 # Literature on Circuits and Databases
 
 This is a collection of papers at the intersection of circuits and databases.
