@@ -2,4 +2,4 @@
 link-citations: true
 ---
 
-CDB [@DBLP:conf/icdt/JhaS11; @DBLP:journals/mst/JhaS13]
+Example citation: [@DBLP:conf/icdt/JhaS11; @DBLP:journals/mst/JhaS13].
