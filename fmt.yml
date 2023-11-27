@@ -1,11 +1,14 @@
 ---
-fontsize: 110%
+mainfont: sans-serif;
 nocite: |
   @*
 header-includes: |
   <style>
+  div.csl-bib-body>div:nth-of-type(odd) {
+    background: #e0e0e0;
+  }
   div.csl-entry {
-    margin: 0.5em;
+    padding: 0.2em;
   }
   </style>
 ---
